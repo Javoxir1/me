@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+
+.container{
+
+}
+.robot{
+}
+.eyes{
+   
+    
+}
+.head{
+    margin: 0 auto;
+    background-color: gray;
+    height: 5em;
+    width: 5em;
+    border-radius: 47% 47% 0 0;
+}
+.head:hover{
+    width:120px;
+    transition: 0.5s ease-in-out ;
+
+}
+.eyes{
+margin-left: 1.1em;
+display: flex;
+padding-top: 2em;
+}
+.right-eye, .left-eye{
+    top: 60px;
+    background-color:aqua;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.left-eye{
+    margin-left: 10px;
+}
+
+.left-eye:hover{
+    /* display: inline-flex; */
+    background-color: red;
+    transform: scale(2.5);
+}
+.right-eye:hover{
+    /* display: inline-flex; */
+    background-color: red;
+    transform: scale(2.5);
+}
+
+.main-body{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;s
+   
+}
+.body{
+    border-radius: 0 0 30% 30%;
+    margin-right: 16px;    
+    margin-left: 16px;    
+    background-color: grey;
+    height: 7em;
+    width: 5em;
+}
+.right-hand{
+    border-radius: 35% ;
+    background-color: grey;
+    height: 5em;
+    width: 1.5em;
+    transition: all 1s;
+}
+.right-hand:hover{
+    transform: rotateX(45deg);
+}
+.left-hand{
+    border-radius: 35% 35% 35% 35%;
+    background-color: grey;
+    height: 5em;
+    width: 1.5em;
+}
+.legs{
+    justify-content: center;
+    margin-top: -4px;
+    display: flex;
+}
+.right-leg,.left-leg{
+    border-radius: 35% 35% 35% 35%;
+    background-color: grey;
+    width: 1.5em;
+    height: 4em;
+}
+.right-leg:hover{
+   transform: rotate(20deg);
+}
+.right-leg{
+    margin-right: 5px;
+}
+h1{
+    text-align: center;
+}
+.bosh{
+    top: 0;
+    bottom: 0;
+    position: sticky;
+    text-align: center;
+    width: 700px;
+    border: solid 5px saddlebrown;
+}
+.box1{
+    text-align: center;
+    margin: 10px 40px;
+    width: 400px;
+    /* margin: 10px 40px; */
+    padding: 10px 0;
+    /* text-align: center; */
+    border: 4px solid green;
+
+}
+.box2{
+    width: 400px;
+    margin: 10px 40px;
+    padding: 10px 0;
+    /* text-align: center; */
+    border: 4px solid red;
+}
+.box3{
+    width: 400px;
+    margin: 10px 40px;
+    padding: 10px 0;
+    /* text-align: center; */
+    border: 4px solid black;
+}
+.box4{
+    width: 400px;
+    margin: 10px 40px;
+    padding: 10px 0;
+    /* text-align: center; */
+    border: 4px solid blue;
+}
